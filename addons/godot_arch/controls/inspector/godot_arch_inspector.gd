@@ -59,3 +59,22 @@ func _on_popup_menu_index_pressed(index: int) -> void:
 	match(index):
 		POPUP_MENU_OPEN_FILE:
 			EditorInterface.get_file_system_dock().navigate_to_path(path.replace(ProjectSettings.globalize_path("res://"), "res://"))
+
+func collapse_all_items():
+	var root = %ReportsTree.get_root()
+	if root:
+		root.set_collapsed_recursive(true)
+		
+		# Expand root node so we can still see the files
+		root.collapsed = false
+
+func expand_all_items():
+	var root = %ReportsTree.get_root()
+	if root:
+		root.set_collapsed_recursive(false)
+
+func _on_collapse_button_pressed() -> void:
+	collapse_all_items()
+
+func _on_expand_button_pressed() -> void:
+	expand_all_items()
