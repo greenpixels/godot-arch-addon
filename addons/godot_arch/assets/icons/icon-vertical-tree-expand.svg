@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>collapse-vertical</title>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g data-name="Layer 2" id="Layer_2">
+   <g data-name="invisible box" id="invisible_box">
+    <rect fill="none" height="48" id="svg_1" width="48"/>
+   </g>
+   <g data-name="icons Q2" id="icons_Q2">
+    <g id="svg_2">
+     <path d="m22.6,15.4a1.9,1.9 0 0 0 2.8,0l6,-5.9a2.1,2.1 0 0 0 0.2,-2.7a1.9,1.9 0 0 0 -3,-0.2l-2.6,2.6l0,-5.2a2,2 0 0 0 -4,0l0,5.2l-2.6,-2.6a1.9,1.9 0 0 0 -3,0.2a2.1,2.1 0 0 0 0.2,2.7l6,5.9z" id="svg_3" transform="rotate(-180, 24, 9.00774)" fill="#aaa"//>
+     <path d="m25.4,32.6a1.9,1.9 0 0 0 -2.8,0l-6,5.9a2.1,2.1 0 0 0 -0.2,2.7a1.9,1.9 0 0 0 3,0.2l2.6,-2.6l0,5.2a2,2 0 0 0 4,0l0,-5.2l2.6,2.6a1.9,1.9 0 0 0 3,-0.2a2.1,2.1 0 0 0 -0.2,-2.7l-6,-5.9z" id="svg_4" transform="matrix(1, 0, 0, 1, 0, 0) rotate(-180, 24, 38.9923)" fill="#aaa"//>
+     <path d="m6,22l36,0a2,2 0 0 0 0,-4l-36,0a2,2 0 0 0 0,4z" id="svg_5" fill="#aaa"//>
+     <path d="m42,26l-36,0a2,2 0 0 0 0,4l36,0a2,2 0 0 0 0,-4z" id="svg_6" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#aaa"//>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
