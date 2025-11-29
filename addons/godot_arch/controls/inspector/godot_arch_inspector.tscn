@@ -1,8 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://tgvt45ii1jbh"]
+[gd_scene load_steps=11 format=3 uid="uid://tgvt45ii1jbh"]
 
 [ext_resource type="Script" uid="uid://ggjwt3fitaiy" path="res://addons/godot_arch/controls/inspector/godot_arch_inspector.gd" id="1_21lnu"]
+[ext_resource type="Texture2D" uid="uid://cnly13x7ayhx5" path="res://addons/godot_arch/assets/icons/icon-vertical-tree-collapse.svg" id="2_orcay"]
+[ext_resource type="Texture2D" uid="uid://cerp56kdgwor7" path="res://addons/godot_arch/assets/icons/icon-vertical-tree-expand.svg" id="3_uqqb2"]
 
-[sub_resource type="Image" id="Image_21lnu"]
+[sub_resource type="Image" id="Image_uqqb2"]
 data = {
 "data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 195, 224, 224, 224, 210, 224, 224, 224, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 253, 224, 224, 224, 139, 224, 224, 224, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 225, 225, 225, 215, 224, 224, 224, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 253, 224, 224, 224, 139, 224, 224, 224, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 225, 225, 225, 183, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 225, 225, 225, 182, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 252, 225, 225, 225, 134, 255, 255, 255, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 212, 226, 226, 226, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 224, 224, 255, 224, 224, 224, 255, 224, 224, 224, 252, 225, 225, 225, 134, 255, 255, 255, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 225, 225, 225, 191, 224, 224, 224, 206, 226, 226, 226, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 "format": "RGBA8",
@@ -11,8 +13,8 @@ data = {
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_orcay"]
-image = SubResource("Image_21lnu")
+[sub_resource type="ImageTexture" id="ImageTexture_dvehl"]
+image = SubResource("Image_uqqb2")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rper7"]
 bg_color = Color(0.477029, 0.767841, 0.368745, 1)
@@ -22,6 +24,11 @@ bg_color = Color(0.827385, 0.324721, 0.0876599, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xgr1i"]
 bg_color = Color(0, 0, 0, 0.219608)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uqqb2"]
+bg_color = Color(0.0962047, 0.0962048, 0.0962047, 0.270588)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3j0wy"]
 
 [node name="GodotArch" type="PanelContainer"]
 anchors_preset = 9
@@ -42,7 +49,7 @@ layout_mode = 2
 unique_name_in_owner = true
 layout_mode = 2
 text = "Execute"
-icon = SubResource("ImageTexture_orcay")
+icon = SubResource("ImageTexture_dvehl")
 
 [node name="Sep" type="Control" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -89,19 +96,6 @@ text = "0"
 layout_mode = 2
 text = "checks failed"
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
-layout_mode = 2
-
-[node name="CollapseButton" type="Button" parent="VBoxContainer/HBoxContainer2"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Collapse All"
-
-[node name="ExpandButton" type="Button" parent="VBoxContainer/HBoxContainer2"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Expand All"
-
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
@@ -116,9 +110,45 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_xgr1i")
 
-[node name="ReportsTree" type="Tree" parent="VBoxContainer/MarginContainer/Panel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer/Panel"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_uqqb2")
+
+[node name="TreeControls" type="HBoxContainer" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer/PanelContainer"]
+layout_mode = 2
+alignment = 2
+
+[node name="CollapseButton" type="Button" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer/PanelContainer/TreeControls"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Collapse Tree"
+icon = ExtResource("2_orcay")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="ExpandButton" type="Button" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer/PanelContainer/TreeControls"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Expand Tree"
+icon = ExtResource("3_uqqb2")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 8
+
+[node name="ReportsTree" type="Tree" parent="VBoxContainer/MarginContainer/Panel/VBoxContainer/MarginContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_3j0wy")
 allow_rmb_select = true
 
 [node name="PopupMenu" type="PopupMenu" parent="."]
@@ -132,7 +162,7 @@ item_count = 1
 item_0/text = "Show in FileSystem"
 item_0/id = 0
 
-[connection signal="pressed" from="VBoxContainer/HBoxContainer2/CollapseButton" to="." method="_on_collapse_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/HBoxContainer2/ExpandButton" to="." method="_on_expand_button_pressed"]
-[connection signal="item_mouse_selected" from="VBoxContainer/MarginContainer/Panel/ReportsTree" to="." method="_on_tree_item_mouse_selected"]
+[connection signal="pressed" from="VBoxContainer/MarginContainer/Panel/VBoxContainer/PanelContainer/TreeControls/CollapseButton" to="." method="_on_collapse_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/MarginContainer/Panel/VBoxContainer/PanelContainer/TreeControls/ExpandButton" to="." method="_on_expand_button_pressed"]
+[connection signal="item_mouse_selected" from="VBoxContainer/MarginContainer/Panel/VBoxContainer/MarginContainer/ReportsTree" to="." method="_on_tree_item_mouse_selected"]
 [connection signal="index_pressed" from="PopupMenu" to="." method="_on_popup_menu_index_pressed"]
