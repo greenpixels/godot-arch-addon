@@ -1,6 +1,6 @@
 class_name GodotArchReport
 
-var files_tested: int
+var files_checked: int
 var files_failed: int
 var warnings: Array[GodotArchWarning]
 var failed_reports: Array[GodotArchReportEntry]
@@ -9,10 +9,10 @@ var successful_reports: Array[GodotArchReportEntry]
 static func from_json(json: Dictionary) -> GodotArchReport:
 	var report := GodotArchReport.new()
 	
-	if not json.has("files_tested") or json.files_tested is not float:
+	if not json.has("files_checked") or json.files_checked is not float:
 		push_error("Malformed JSON Output: Files Tested")
 		return
-	report.files_tested = json.files_tested
+	report.files_checked = json.files_checked
 	
 	if not json.has("files_failed") or json.files_failed is not float:
 		push_error("Malformed JSON Output: Files Failed")
