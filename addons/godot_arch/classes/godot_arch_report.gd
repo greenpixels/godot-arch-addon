@@ -10,7 +10,7 @@ static func from_json(json: Dictionary) -> GodotArchReport:
 	var report := GodotArchReport.new()
 	
 	if not json.has("files_checked") or json.files_checked is not float:
-		push_error("Malformed JSON Output: Files Tested")
+		push_error("Malformed JSON Output: Files Checked")
 		return
 	report.files_checked = json.files_checked
 	
