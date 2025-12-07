@@ -11,8 +11,8 @@ func _ready() -> void:
 
 func update_from_report_data(report : GodotArchReport):
 	%AmountFailed.text = str(report.files_failed)
-	%AmountTotal.text = str(report.files_tested)
-	%ProgressBar.value = float(report.files_failed) / float(report.files_tested) * 100.
+	%AmountTotal.text = str(report.files_checked)
+	%ProgressBar.value = float(report.files_failed) / float(report.files_checked) * 100.
 	
 	var reports_by_file_path : Dictionary[String, Array] = {}
 	
